@@ -87,7 +87,7 @@ Jupyter magic	Description
 %worker_type	Decide the worker type: Standard, G.1X, G2.X.
 %additional_python_modules	Comma-separated list of public Python modules (available in PyPI) or custom packages (.whl, .zip); these packages will be installed using pip.
 %extra_py_files	Comma-separated list of Python files stored in S3.
-%connections (optional)	You can specify a list of connections to use in the session, separated by commas.
-![image](https://user-images.githubusercontent.com/38211382/225001608-4ebf5b6c-45a8-4205-863f-1963851644b8.png)
+%connections You can specify a list of connections to use in the session, separated by commas.
+
 
 
