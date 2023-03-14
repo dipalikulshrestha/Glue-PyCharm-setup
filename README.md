@@ -76,18 +76,6 @@ Set-up no. of workers
 
 ## References
 ### Available Magics in Glue Notebooks
-Jupyter magic	Description
-%iam_role	Define IAM role ARN for the session.
-%profile	AWS profile to use as the credential provider.
-%region	AWS region to initialise the session.
-%session_id_prefix	String prefix as an identifier to track your sessions.
-%glue_version	Glue version to use: valid options are 2.0 and 3.0.
-%idle_timeout	Define a proper idle timeout (in minutes) to avoid leaving a session running for a long time: the default timeout is 2 days.
-%number_of_workers	Keep it small (the default value is 5).
-%worker_type	Decide the worker type: Standard, G.1X, G2.X.
-%additional_python_modules	Comma-separated list of public Python modules (available in PyPI) or custom packages (.whl, .zip); these packages will be installed using pip.
-%extra_py_files	Comma-separated list of Python files stored in S3.
-%connections You can specify a list of connections to use in the session, separated by commas.
 
-
+![image](https://user-images.githubusercontent.com/38211382/225001608-4ebf5b6c-45a8-4205-863f-1963851644b8.png)
 
